@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+  --brand-color-blue: #2196f3;
+  --brand-color-black: #212121;
+  --brand-color-grey: #757575;
+}
+body {
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--brand-color-black);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+p {
+  font-family: 'Roboto';
+  color: var(--brand-color-grey);
+  font-size: 14px;
+  line-height: 0.5;
+}
+
+.nav > .icon {
+  font-family: 'Raleway';
+  color: var(--brand-color-blue);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30.52px;
+}
+
+.footer > .icon {
+  font-family: 'Raleway';
+  color: var(--brand-color-blue);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30.52px;
+}
+
+.port-button {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  background: #f5f4fa;
+  border: none;
+  border-radius: 2px;
+  color: var(--brand-color-black);
+}
+
+.port-button:active {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  background: var(--brand-color-blue);
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
+}
