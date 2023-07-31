@@ -29,7 +29,7 @@ p {
   line-height: 0.5;
 }
 
-.nav > .icon {
+.icon {
   font-family: 'Raleway';
   color: var(--brand-color-blue);
   font-weight: 700;
@@ -37,7 +37,7 @@ p {
   line-height: 30.52px;
 }
 
-.footer > .icon {
+.icon {
   font-family: 'Raleway';
   color: var(--brand-color-blue);
   font-weight: 700;
