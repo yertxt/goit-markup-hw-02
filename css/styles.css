@@ -26,7 +26,8 @@ p {
   font-family: 'Roboto';
   color: var(--brand-color-grey);
   font-size: 16px;
-  line-height: 0.5;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
 }
 
 /* Header Styles */
@@ -35,10 +36,15 @@ p {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 0.8;
+  line-height: 1.1;
+  letter-spacing: 0.28px;
 }
 
 .first_header_a:hover {
+  color: var(--brand-color-blue);
+}
+
+.first_header_a:focus {
   color: var(--brand-color-blue);
 }
 
@@ -47,10 +53,15 @@ p {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 0.8;
+  line-height: 1.1;
+  letter-spacing: 0.28px;
 }
 
 .second_header_a:hover {
+  color: var(--brand-color-blue);
+}
+
+.second_header_a:focus {
   color: var(--brand-color-blue);
 }
 
@@ -59,9 +70,8 @@ p {
   color: var(--brand-color-blue);
   font-weight: 700;
   font-size: 26px;
-  line-height: 0.8;
+  line-height: 1.1;
 }
-/* Header Styles */
 
 /* Hero Styles */
 .hero {
@@ -72,7 +82,7 @@ p {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 0.8;
+  line-height: 1.1;
   text-align: center;
 }
 
@@ -85,10 +95,18 @@ p {
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 0.3;
+  line-height: 1.8;
   text-align: center;
+  letter-spacing: 0.96px;
 }
-/* Hero Styles */
+
+/* About */
+.about > h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 1.08px;
+}
 
 /* Our Team */
 .our_team {
@@ -97,7 +115,8 @@ p {
 .our_team > h2 {
   font-size: 36px;
   font-weight: 700;
-  line-height: 0.8;
+  line-height: 1.1;
+  letter-spacing: 1.08px;
 }
 .team_items {
   background-color: #ffffff;
@@ -105,7 +124,6 @@ p {
 .team_items > div {
   text-align: center;
 }
-/* Our Team */
 
 /* Footer */
 .footer_a {
@@ -113,7 +131,8 @@ p {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 0.5;
+  line-height: 1.7;
+  letter-spacing: 0.42px;
   font-style: normal;
 }
 
@@ -122,13 +141,16 @@ p {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 0.5;
+  line-height: 1.7;
+  letter-spacing: 0.42px;
   font-style: normal;
 }
 .footer_b:hover {
   color: var(--brand-color-blue);
 }
-/* Footer */
+.footer_b:focus {
+  color: var(--brand-color-blue);
+}
 
 .port-button {
   font-family: 'Roboto';
@@ -142,12 +164,11 @@ p {
 }
 
 .port-button:hover {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
   background: var(--brand-color-blue);
-  border: none;
-  border-radius: 2px;
+  color: #ffffff;
+}
+
+.port-button:focus {
+  background: var(--brand-color-blue);
   color: #ffffff;
 }
