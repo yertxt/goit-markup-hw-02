@@ -10,6 +10,9 @@ body {
   color: var(--brand-color-black);
 }
 
+ul {
+  padding: 0px;
+}
 a {
   text-decoration: none;
 }
@@ -28,6 +31,25 @@ p {
   font-size: 16px;
   line-height: 1.7;
   letter-spacing: 0.4px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #ECECEC;
+}
+.flex_around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 16px;
 }
 
 /* Header Styles */
@@ -76,6 +98,10 @@ p {
 /* Hero Styles */
 .hero {
   background-color: #2f303a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .hero > h1 {
@@ -100,6 +126,13 @@ p {
   letter-spacing: 0.96px;
 }
 
+/* Attention to Details */
+.at_details {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+
 /* About */
 .about > h2 {
   font-size: 36px;
@@ -112,7 +145,22 @@ p {
 .our_team {
   background-color: #f5f4fa;
 }
-.our_team > h2 {
+
+.our_team_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.container > h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
@@ -120,12 +168,24 @@ p {
 }
 .team_items {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .team_items > div {
   text-align: center;
 }
 
 /* Footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer_flex {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
 .footer_a {
   color: #ffffff;
   font-size: 14px;
@@ -152,6 +212,14 @@ p {
   color: var(--brand-color-blue);
 }
 
+
+.port_ul_flex{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
 .port-button {
   font-family: 'Roboto';
   font-weight: 500;
@@ -159,7 +227,7 @@ p {
   line-height: 26px;
   background: #f5f4fa;
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
   color: var(--brand-color-black);
 }
 
@@ -171,4 +239,14 @@ p {
 .port-button:focus {
   background: var(--brand-color-blue);
   color: #ffffff;
+}
+
+
+/* Utilities */
+.padd-shrink{
+  padding: 94px 0px;
+}
+
+.border-bottom > li > div{
+  border-bottom: 1px solid #ECECEC;
 }
