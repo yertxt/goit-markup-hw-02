@@ -264,3 +264,7 @@ p {
 .border-bottom > li{
   border-bottom: 1px solid #EEE;
 }
+
+.border-bottom {
+  border-bottom: 1px solid #EEE;
+}
